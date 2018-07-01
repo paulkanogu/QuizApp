@@ -163,7 +163,7 @@ public class MainActivity extends AppCompatActivity {
         score = 0;
     }
 
-
+    // *Method called upon clicking the reset button
     public void reset(View v) {
         clearRadioButtons(R.id.q1_radioGroup);
         clearRadioButtons(R.id.q2_radioGroup);
